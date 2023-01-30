@@ -1,0 +1,57 @@
+/* selector {
+  property: value;
+} */
+
+body {
+  /* TO RESET BROWSER STYLES */
+  /* margin: 0;
+  padding: 0;
+  box-sizing: border-box; */
+
+  background: royalblue;
+  color: white;
+  font-family: sans-serif;
+}
+
+.navbar {
+  /* BOX MODELING PROPERTIES */
+  background: tomato;
+  padding: 0 1em;
+
+  /* FLEX PROPERTIES */
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.navbar-logo {
+  font-family: fantasy;
+}
+
+.navbar-menu {
+  /* BOX MODELING PROPERTIES */
+  list-style-type: none;
+  width: 50%;
+
+  /* FLEX PROPERTIES */
+  display: flex;
+  justify-content: space-around;
+}
+
+.header {
+  padding: 1em;
+}
+
+.header-title {
+  text-shadow: 2px 2px black;
+}
+
+.header-cta {
+  padding: 1em;
+  border: 2px solid black;
+}
+
+.header-cta:hover {
+  box-shadow: 2px 2px 2px black;
+  cursor: pointer;
+}
