@@ -1,0 +1,74 @@
+/* selector {
+            property: value;
+        } */
+
+body {
+  /* TO RESET BROWSER STYLES */
+  /* margin: 0;
+  padding: 0;
+  box-sizing: border-box; */
+
+  background: royalblue;
+  color: white;
+  font-family: sans-serif;
+}
+
+.navbar-top {
+  /* BOX MODEL PROPERTIES */
+  padding: 1em;
+  background: tomato;
+  width: 100vw;
+
+  position: fixed;
+  top: 0;
+  right: 0;
+
+  /* FLEX */
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.navbar-brand {
+  max-width: 50px;
+  margin-left: 2em;
+}
+
+.navbar-brand img {
+  width: 100%;
+}
+
+.navbar-menu {
+  /* BOX MODEL PROPERTIES */
+  list-style: none;
+  width: 40vw;
+
+  /* FLEX */
+  display: flex;
+  justify-content: space-around;
+}
+
+.header {
+  background: goldenrod;
+  padding: 2em;
+  padding-top: 5em;
+}
+
+.header-title {
+  font-style: italic;
+  text-shadow: 2px 2px 2px black;
+}
+
+.header-description {
+  font-weight: bold;
+}
+
+.header-cta {
+  border: 2px solid black;
+  padding: 1em;
+}
+
+.header-cta:hover {
+  box-shadow: 2px 2px 2px black;
+  cursor: pointer;
+}
