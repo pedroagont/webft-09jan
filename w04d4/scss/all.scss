@@ -1,0 +1,79 @@
+nav {
+  /* BOX MODELING PROPERTIES */
+  background-color: royalblue;
+  color: white;
+  padding: 1em;
+  width: 100vw;
+
+  /* DISPLAY FLEX PROPERTIES */
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  /* POSITION */
+  position: fixed;
+  top: 0;
+  right: 0;
+
+  span {
+    font-size: 30px;
+    font-weight: bold;
+    margin-left: 1em;
+  }
+
+  div {
+    font-size: 2em;
+    display: none;
+  }
+
+  ul {
+    list-style: none;
+    width: 50%;
+
+    display: flex;
+    justify-content: space-around;
+  }
+}
+
+header {
+  padding: 1em;
+  background: tomato;
+  color: white;
+  padding-top: 90px;
+
+  h1 {
+    font-style: italic;
+    text-shadow: 1.5px 1.5px 1.5px black;
+  }
+
+  p {
+    font-family: monospace;
+  }
+
+  button {
+    padding: 1em;
+    width: 150px;
+  }
+}
+
+main {
+  width: 90vw;
+  margin: 1em auto;
+
+  section {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+  }
+}
+
+article {
+  border: 1px solid black;
+  max-width: 25%;
+  padding: 1em;
+  margin-bottom: 1em;
+
+  img {
+    width: 100%;
+  }
+}
